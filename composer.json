@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Sitewards_QuickOrders",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "The Sitewards QuickOrders extension adds a new form to the customer section that allows a user to add multiple products to the cart via sku.",
+    "authors": [
+    {
+        "name": "Sitewards Magento Team",
+        "email": "magento@sitewards.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

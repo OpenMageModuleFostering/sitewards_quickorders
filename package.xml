@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sitewards_QuickOrders</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The Sitewards QuickOrders extension adds a new form to the customer section that allows a user to add multiple products to the cart via sku.</summary>
+    <description>The Sitewards QuickOrders extension adds a new form to the customer section that allows a user to add multiple products to the cart via sku.&#xD;
+&#xD;
+Features&#xD;
+&#xD;
+ - Adds new form to the customer account section&#xD;
+ - Form allows to add multiple products to the cart via sku</description>
+    <notes>First stable release</notes>
+    <authors><author><name>Sitewards Magento Team</name><user>sitewards</user><email>magento@sitewards.com</email></author></authors>
+    <date>2014-06-23</date>
+    <time>10:16:20</time>
+    <contents><target name="magecommunity"><dir name="Sitewards"><dir name="QuickOrders"><dir name="Helper"><file name="Data.php" hash="db972aea00ca57e65b84a6cf6dd47d95"/></dir><dir name="Test"><dir name="Helper"><dir name="Data"><dir name="fixtures"><file name="testIsExtensionActive.yaml" hash="4154fdddf3a247afb75a5b6a288da480"/></dir></dir><file name="Data.php" hash="cf0419059980b0131a30d669dd877b17"/></dir></dir><dir name="controllers"><file name="OrderController.php" hash="4cdbeefa41e3cc5673ad6292c1cd3d6e"/><file name="ProductController.php" hash="f5e2a22d0975f5c74fb5dcad9a37a2dc"/></dir><dir name="etc"><file name="adminhtml.xml" hash="c28626e802835131cb9d2ea9bde4c2d6"/><file name="config.xml" hash="a189f1ea9ebdd71016fc58918e51d5b1"/><file name="system.xml" hash="cce3940ac94c8f7099a3565d60ede3b7"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sitewards_QuickOrders.xml" hash="bbd5ff9ca2de18cb1b7b0ef5f7d9cc26"/></dir></target><target name="magelocale"><dir name="de_DE"><file name="Sitewards_QuickOrders.csv" hash="22b165d76d96e661e53b69347740507f"/></dir><dir name="en_US"><file name="Sitewards_QuickOrders.csv" hash="8106f736e238f085feaf0f0caef989b6"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="sitewards"><dir name="quickorders"><dir name="order"><file name="form.phtml" hash="7822738d2b88173b7ffad3e66a1b696e"/></dir></dir></dir></dir><dir name="layout"><dir name="sitewards"><file name="quickorders.xml" hash="777e96fc715ef599148c4c02fbd73c90"/></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="sitewards"><file name="quickorders.js" hash="fb5de43cb4ff4716e6724fdec57a2a81"/></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="images"><dir name="sitewards"><dir name="quickorders"><file name="loading.gif" hash="1836c963dec1eb6dab0e0a41b8121cd3"/></dir></dir></dir><dir name="css"><dir name="sitewards"><file name="quickorders.css" hash="e23e7597f0c20ff39caf48db7d51df90"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
